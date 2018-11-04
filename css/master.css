@@ -12,8 +12,9 @@ div, section, article, figure, nav, ul{
 }
 /* variables */
 :root {
-  --color-primario: #00ff00;
+  --color-primario: #c86fc9;
   --color-secundario: #0f0000;
+  --color-tres:#f79ad3;
   --color-link: #ff0000;
   --color-link-hover: #f00000;
   --altura-header: 75px;
@@ -46,4 +47,25 @@ nav ul li a{
 }
 #heroscreen, #info, #participantes, #ubicacion{
   height: var(--altura-seccion);
+}
+#heroscreen{
+    width: auto;
+    display: flex;
+    margin: auto;
+    background-color: var(--color-primario);
+    /* text-align: center; */
+    align-items: center;
+}
+#info{
+  height: var(--altura-seccion);
+  width: auto;
+  display:flex;
+  background-color: var(--color-secundario);
+
+}
+#info2{
+  height: var(--altura-seccion);
+  width: auto;
+  display: block;
+  background-color: var(--color-tres)
 }
