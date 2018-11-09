@@ -10,66 +10,360 @@
   <title>Wireframe Evento </title>
   <!-- estilos -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/responsive.css">
 
 </head>
-
 <body>
 
-  <main id="main" class="container-fluid">
-
-    <header class="row">
-
-      <figure id="logo" class="col-2">
-        <img src="img/cruz.png" alt="logo">
+  <header class="container-fluid">
+    <!-- menu escritorio -->
+    <nav id="menu" class="navbar navbar-expand-lg navbar-light col">
+      <!-- logo -->
+      <figure id="logo" class="navbar-brand">
+        <a href="index.html">
+          <img src="img/cruz.png" alt="logo">
+        </a>
       </figure>
-      <nav id="menu" class="col-10">
-        <ul class="row">
-          <li  class="col-4 text-center ha align-self-center">
-            <a href="#info">Información</a>
-          </li>
 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="col-12 navbar-nav">
+
+          <li class="col-4 text-center ha align-self-center">
+            <a href="#info" class="">Información</a>
+          </li>
           <li class="col-4 text-center ha align-self-center">
             <a href="#participantes">Participantes</a>
           </li>
-
           <li class="col-4 text-center ha align-self-center">
             <a href="#ubicacion">Ubicación</a>
           </li>
         </ul>
+      </div>
+    </nav>
+  </header>
 
+  <main id="main" class="container-fuid">
+    <!--  -->
+    <section id="heroscreen" class="col">
 
+      <div class="row">
 
-      </nav>
-    </header>
+        <div class="heroscreen_background col">
+          <img src="img/cruz.png" alt="Bienvenida">
+        </div>
 
-    <section id="heroscreen" class="col-12 text-center ha align-self-center container-fluid">
-      <p>FUNDAMENTOS</p>
+        <div class="heroscreen_text col text-center ha align-self-center">
+
+          <h1>Curso</h1>
+          <h3>Fundamentos de programación</h3>
+
+        </div>
+
+      </div>
 
     </section>
+    <!--  -->
+    <section id="info" class="col">
 
-    <section id="info" class="col-12 text-center ha align-self-center container-fluid">
-      <p class="col-6 text-center ha align-self-center container-fluid">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="row">
 
-      <section id="info2" class="col-4 text-center ha align-self-center">
-        <p class="col-4 text-center ha align-self-center container-fluid">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-      </section>
+        <div class="col-12 col-md-8 ha align-self-center">
+
+          <h1 class="info_description col text-center">ón del evento</h1>
+
+          <div class="col text-left">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          </div>
+
+        </div>
+
+        <div class="info_venue col-12 col-md-4 ha align-self-center">
+
+          <h2 class="col text-center">Lugar del evento</h2>
+          <div class="col text-left">
+
+            <p>Lorem ipsum dolor sit amet, incididunt ut, ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Excepteur sint occaecat cupidatat non proident,  officia deserunt mollit anim id est laborum.</p>
+            <p>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          </div>
+
+        </div>
+
+      </div>
     </section>
+    <!--  -->
+    <section id="participantes" class="col">
 
+      <h1 class="col text-center">Participantes</h1>
 
+      <div class="row">
+        <!--  -->
+        <div class="participantes_item col-12 col-md-6 col-lg-3">
 
-    <section id="participantes" class="row">
+          <div class="participantes_item_back col">
+
+            <img src="img/cruz.png" alt="Participante">
+
+          </div>
+
+          <div class="participantes_item_text col">
+
+            <div class="row">
+
+              <h2 class="col text-center ha my-auto">Nombre Participante</h2>
+              <h4 class="col text-center ha my-auto">Subtitulo participante</h4>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!--  -->
+        <div class="participantes_item col-12 col-md-6 col-lg-3">
+
+          <div class="participantes_item_back col">
+
+            <img src="img/cruz.png" alt="Participante">
+
+          </div>
+
+          <div class="participantes_item_text col">
+
+            <div class="row">
+
+              <h2 class="col text-center ha my-auto">Nombre Participante</h2>
+              <h4 class="col text-center ha my-auto">Subtitulo participante</h4>
+
+            </div>
+
+          </div>
+        </div>
+        <!--  -->
+        <div class="participantes_item col-12 col-md-6 col-lg-3">
+
+          <div class="participantes_item_back col">
+
+            <img src="img/cruz.png" alt="Participante">
+
+          </div>
+
+          <div class="participantes_item_text col">
+
+            <div class="row">
+
+              <h2 class="col text-center ha my-auto">Nombre Participante</h2>
+              <h4 class="col text-center ha my-auto">Subtitulo participante</h4>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!--  -->
+        <div class="participantes_item col-12 col-md-6 col-lg-3">
+
+          <div class="participantes_item_back col">
+
+            <img src="img/cruz.png" alt="Participante">
+
+          </div>
+
+          <div class="participantes_item_text col">
+
+            <div class="row">
+
+              <h2 class="col text-center ha my-auto">Nombre Participante</h2>
+              <h4 class="col text-center ha my-auto">Subtitulo participante</h4>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!--  -->
+        <div class="participantes_item col-12 col-md-6 col-lg-3">
+
+          <div class="participantes_item_back col">
+
+            <img src="img/cruz.png" alt="Participante">
+
+          </div>
+
+          <div class="participantes_item_text col">
+
+            <div class="row">
+
+              <h2 class="col text-center ha my-auto">Nombre Participante</h2>
+              <h4 class="col text-center ha my-auto">Subtitulo participante</h4>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!--  -->
+        <div class="participantes_item col-12 col-md-6 col-lg-3">
+
+          <div class="participantes_item_back col">
+
+            <img src="img/cruz.png" alt="Participante">
+
+          </div>
+
+          <div class="participantes_item_text col">
+
+            <div class="row">
+
+              <h2 class="col text-center ha my-auto">Nombre Participante</h2>
+              <h4 class="col text-center ha my-auto">Subtitulo participante</h4>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!--  -->
+        <div class="participantes_item col-12 col-md-6 col-lg-3">
+
+          <div class="participantes_item_back col">
+
+            <img src="img/cruz.png" alt="Participante">
+
+          </div>
+
+          <div class="participantes_item_text col">
+
+            <div class="row">
+
+              <h2 class="col text-center ha my-auto">Nombre Participante</h2>
+              <h4 class="col text-center ha my-auto">Subtitulo participante</h4>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!--  -->
+        <div class="participantes_item col-12 col-md-6 col-lg-3">
+
+          <div class="participantes_item_back col">
+
+            <img src="img/cruz.png" alt="Participante">
+
+          </div>
+
+          <div class="participantes_item_text col">
+
+            <div class="row">
+
+              <h2 class="col text-center ha my-auto">Nombre Participante</h2>
+              <h4 class="col text-center ha my-auto">Subtitulo participante</h4>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!--  -->
+
+      </div>
 
     </section>
+    <!--  -->
+    <section id="ubicacion" class="col">
 
-    <section id="ubicacion" class="row">
+      <h1 class="col text-center">Ubicación</h1>
+
+      <div class="row">
+
+        <div class="col-12 col-lg-6 text-left ha my-auto">
+
+          <h2 class="col text-center">Aparta tu lugar</h2>
+
+          <p class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <p class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <br>
+
+          <form class="suscipcion text-center" action="index.html" method="post">
+
+            <label for="subscribe">
+              <input type="email" name="email" value="" placeholder="correo@gmail.com">
+              <input type="submit" name="submit" value="Enviar">
+            </label>
+
+          </form>
+
+        </div>
+
+        <div id="map" class="col-12 col-lg-6 text-center"></div>
+
+      </div>
+
     </section>
-
-
 
   </main>
 
+  <footer id="footer" class="col">
+
+    <div class="row">
+
+      <div class="col col-md-6 col-lg-8 ha my-auto">
+
+        <copyright class="col text-left">Ejercicio maqueta 2018</copyright>
+
+      </div>
+      <!--  -->
+      <div class="social col col-md-6 col-lg-4 ha my-auto">
+
+        <ul class="row float-right">
+
+          <li class="col-3">
+            <a href="https://github.com" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li class="col-3">
+            <a href="https://soundcloud.com" target="_blank">
+              <i class="fa fa-soundcloud"></i>
+            </a>
+          </li>
+          <li class="col-3">
+            <a href="https://twitter.com" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="col-3">
+            <a href="https://instagram.com" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </footer>
 
 </body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
 
 </html>
