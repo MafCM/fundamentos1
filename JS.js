@@ -1,17 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="en" dir="ltr">
-<head>
-</head>
-<body>
-</body>
-<script type="text/javascript">
+// INICIALIZACIÓN
+// JQuery = non conflict mode
+// $ = conflict mode
+$(document).ready( () => {
 
-document.write("Estoy escrito con javascript")
+  alert("ALERTS VAMOS A MORIRRRRRR")
+} )
 
-</script>
 
-<ul>
- <li>Metodo</li>
- <li>String o Texto= siempre entre comillas</li>
- <li>variable</li>
-</ul>
+
+
+
+
+
+
+// FUNCIONES ESTÁTICAS
+// FUNCI testON
